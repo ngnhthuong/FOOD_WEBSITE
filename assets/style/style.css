@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #000235;
+    height: 1000px;
+}
+
+header{
+    /* background-color: white; */
+    margin: 5px;
+}
+
+/* btn */
+.btn__chevron--down{
+    stroke: white;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.btn__search{
+    stroke: white;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+/* logo */
+.header__logo{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 30px;
+}
+
+/* Locations */
+
+.header__locations{
+    padding: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header__location{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background-color: #8080D7;
+    height: 26px;
+    width: 200px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.header__location--city{
+    color: white;
+}
+
+.header__location--item{
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+}
+
+
+
+/* Items */
+.header__categories{
+    width: 400px;
+    display: inline-block;
+}
+.header__items{
+    width: fit-content;
+    display: inline-block;
+    text-align: center;
+}
+
+.header__item{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+    
+}
+
+.header__item--link{
+    text-decoration: none;
+    color: white;   
+}
+
+.header__item--link{
+    padding-bottom: 2px;
+    display: inline-block;
+}
+
+.header__item--link:active,
+.header__item--link:hover{
+    color: #EB6809;
+    border-bottom: 2px solid #EB6809;
+}
+
+/* Search and Login */
+
+.header__funcs{
+    width: fit-content;
+    display: inline-block;
+
+}
+
+.header__func{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 15px;
+}
+
+
+.header__search{
+}
+
+.header__login{
+}
+
+.header__login--link{
+    color: white;
+    text-decoration: none;
+}
+
+/* Language */
+.header__languages{
+    width: fit-content;
+    display: inline-block;
+    text-align: left;
+}
+
+
+.header__language--flag{
+    color: white;
+}
+
+.header__language{
+    display: inline-block;
+}
