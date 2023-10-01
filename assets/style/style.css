@@ -138,9 +138,19 @@ html {
 }
 
 
-.header__language--flag {
-    color: white;
+.header__language--flags {
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    vertical-align: middle;
 }
+
+.header__language--flag {
+    border-radius: 150px;
+    width: 25px; 
+    height: 25px;
+}
+
 
 .header__language {
     display: inline-block;
@@ -218,7 +228,7 @@ main {
     overflow: hidden;
 }
 
-.main__tag--item{
+.main__tag--item {
     text-decoration: none;
     color: black;
 }
@@ -234,7 +244,7 @@ main {
     list-style: none;
 }
 
-.main__tag--items:hover{
+.main__tag--items:hover {
     border: 1px solid blue;
 }
 
@@ -248,4 +258,3 @@ main {
     right: 0;
     top: 0;
 }
-
