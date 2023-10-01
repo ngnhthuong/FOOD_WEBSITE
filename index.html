@@ -6,32 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style/style.css">
     <title>Panda Food</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 
 <body>
-    <main>
-        <header>
-            <div class="header__logo">
-                <img width="80px" height="45px" src="./assets/images/logo.png" alt="">
-            </div>
-            <div class="header__locations">
-                <ul class="header__location">
-                    <li class="header__location--item header__location--city">TP. Hồ Chí Minh</li>
-                    <li class="header__location--item"><svg width="20px" height="20px"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="btn__chevron--down">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-                        </svg>
-                    </li>
-                </ul>
-            </div>
-            <div class="header__categories">
-                <ul class="header__items">
-                    <li class="header__item"><a class="header__item--link" href="#">Đồ ăn</a></li>
-                    <li class="header__item"><a class="header__item--link" href="#">Thức uống</a></li>
-                    <li class="header__item"><a class="header__item--link" href="#">Giỏ hàng</a></li>
-                </ul>
-            </div>
+    <header class="header">
+        <div class="header__logo">
+            <img width="80px" height="45px" src="./assets/images/logo.png" alt="">
+        </div>
+        <div class="header__locations">
+            <ul class="header__location">
+                <li class="header__location--item header__location--city">TP. Hồ Chí Minh</li>
+                <li class="header__location--item"><svg width="20px" height="20px" xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                        class="btn__chevron--down">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </li>
+            </ul>
+        </div>
+        <div class="header__categories">
+            <ul class="header__items">
+                <li class="header__item"><a class="header__item--link" href="#">Đồ ăn</a></li>
+                <li class="header__item"><a class="header__item--link" href="#">Thức uống</a></li>
+                <li class="header__item"><a class="header__item--link" href="#">Giỏ hàng</a></li>
+            </ul>
+        </div>
+        <div class="header__functions">
             <div class="header__funcs">
                 <ul>
                     <li class="header__func header__search"><svg width="20px" height="20px"
@@ -56,7 +57,45 @@
                     </li>
                 </ul>
             </div>
-        </header>
+        </div>
+    </header>
+    <main>
+        <section class="section__banner__search">
+            <div class="main__searchs">
+                <div class="main__search">
+                    <input class="main__search--input" type="text" placeholder="Tìm địa điểm, món ăn, địa chỉ...">
+                    <button class="main__search--icon">
+                        <i class="fas fa-search"></i> </button>
+                </div>
+                <div class="main__tags">
+                    <ul class="main__tag">
+                        <li class="main__tag--item"><a href="#">All</a></li>
+                        <li class="main__tag--item"><a href="#">Đồ ăn</a></li>
+                        <li class="main__tag--item"><a href="#">Đồ uống</a></li>
+                        <li class="main__tag--item"><a href="#">Đồ chay</a></li>
+                        <li class="main__tag--item"><a href="#">Homemade</a></li>
+                        <li class="main__tag--item"><a href="#">Tráng miệng</a></li>
+                        <li class="main__tag--item"><a href="#">Bánh kem</a></li>
+                        <li class="main__tag--item"><a href="#">Pizza/Burger</a></li>
+                        <li class="main__tag--item"><a href="#">Món gà</a></li>
+                        <li class="main__tag--item"><a href="#">Món lẩu</a></li>
+                        <li class="main__tag--item"><a href="#">Sushi</a></li>
+                        <li class="main__tag--item"><a href="#">Mì phở</a></li>
+                        <li class="main__tag--item"><a href="#">Cơm hộp</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="main__banner">
+                <div class="main__banner--img"></div>
+                <!-- <ul class="main__banner--crolls">
+                    <li class="main__banner--croll"></li>
+                    <li class="main__banner--croll"></li>
+                    <li class="main__banner--croll"></li>
+                </ul> -->
+            </div>
+        </section>
     </main>
 </body>
 
