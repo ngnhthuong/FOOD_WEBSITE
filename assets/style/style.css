@@ -217,15 +217,24 @@ main {
     overflow: hidden;
 }
 
-.main__tag--item {
+.main__tag--item{
+    text-decoration: none;
+    color: black;
+}
+
+.main__tag--items {
     background-color: white;
-    /* background-color: #D9D9D9; */
     color: black;
     width: fit-content;
     padding: 7px;
     border-radius: 7px;
     margin: 5px;
     display: inline-block;
+    list-style: none;
+}
+
+.main__tag--items:hover{
+    border: 2px solid blue;
 }
 
 .main__banner {
@@ -238,3 +247,4 @@ main {
     right: 0;
     top: 0;
 }
+
