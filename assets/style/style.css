@@ -306,7 +306,7 @@ html {
 }
 
 .hidden__chatbox{
-    display: none;
+    display: block;
 }
 
 
