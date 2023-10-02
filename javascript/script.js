@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var windowHeight = window.innerHeight;
 
         // Khi gần tới footer, ẩn chatbox icon
-        if (footerOffset < windowHeight / 1.1) {
+        if (footerOffset < windowHeight / 1.05) {
             chatboxIcon.style.display = "none";
         } else {
             chatboxIcon.style.display = "block";

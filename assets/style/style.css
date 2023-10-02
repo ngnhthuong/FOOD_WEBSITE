@@ -295,14 +295,14 @@ html {
     right: 0;
 }
 
+.main-chatbox:hover{
+    cursor: pointer;
+}
+
 .main-chatbox__icon{
     margin: 20px;
     margin-bottom: 40px;
-    width: 80px;
-    height: 80px;
-    background-color: white;
     /* display: none; */
-
 }
 
 .hidden__chatbox{
