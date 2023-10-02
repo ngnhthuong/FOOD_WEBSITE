@@ -7,13 +7,34 @@
 
 html {
     background-color: #000235;
-    /* background-color: grey; */
     height: 1000px;
+    scroll-behavior: smooth;    
+}
+
+.sticky{
+    /* background-color: #AAD9D9;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    transition: top 0.3s ease-in-out; 
+    z-index: 999;
+    top: 0; */
+    background-color: rgba(0, 0, 0, 0.9); /* Màu nền với độ trong suốt */
+    padding: 10px; /* Khoảng cách giữa nội dung và viền */
+    width: 100%;
+    position: fixed;
+    z-index: 1000; /* Đảm bảo hiển thị trên cùng của các phần tử khác */
+    top: -50px; /* Điều này ẩn tiêu đề ban đầu khi không "sticky" */
+    transition: top 0.3s ease-in-out; /* Hiệu ứng chuyển đổi cho việc hiện/ẩn */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng */
 }
 
 .header {
     padding: 5px;
     width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
 }
 
 /* btn */
@@ -29,7 +50,7 @@ html {
     padding: 0;
     margin: 0;
     vertical-align: middle;
-}
+}   
 
 /* logo */
 .header__logo {
@@ -165,14 +186,15 @@ html {
 /* -------------------------------------------- */
 main {
     width: 100%;
-    justify-content: center;
+    justify-content: center;    
 }
+
 
 .section__banner__search {
     width: 75%;
     height: 450px;
     position: relative;
-    margin-top: 3%;
+    margin-top: 7%;
     margin-left: 160px;
 }
 
@@ -190,7 +212,7 @@ main {
 .main__search {
     background-color: rgb(255, 255, 255);
     width: 426px;
-    height: 35px;
+    height: 45px;
     overflow: hidden;
     position: relative;
     border-radius: 7px;
@@ -211,7 +233,7 @@ main {
 .main__search--icon {
     position: absolute;
     width: 40px;
-    height: 35px;
+    height: 45px;
     right: 0;
     top: 0;
     font-size: 15px;
@@ -231,6 +253,7 @@ main {
 .main__tag--item {
     text-decoration: none;
     color: black;
+    font-size: 15px;
 }
 
 .main__tag--items {
