@@ -16,3 +16,20 @@ $(document).ready(function() {
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    var chatboxIcon = document.querySelector(".hidden__chatbox   ");
+    var footer = document.querySelector("footer");
+
+    window.addEventListener("scroll", function() {
+        var footerOffset = footer.getBoundingClientRect().top;
+        var windowHeight = window.innerHeight;
+
+        // Khi gần tới footer, hiển thị chatbox icon
+        if (footerOffset < windowHeight / 1.1) {
+            chatboxIcon.style.display = "none";
+        } else {
+            chatboxIcon.style.display = "block";
+        }
+    });
+});
