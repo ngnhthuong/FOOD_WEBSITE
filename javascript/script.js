@@ -17,6 +17,8 @@ $(document).ready(function() {
     });
 });
 
+// croll hidden chatbox
+
 document.addEventListener("DOMContentLoaded", function() {
     var chatboxIcon = document.querySelector(".hidden__chatbox   ");
     var footer = document.querySelector("footer");
@@ -25,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var footerOffset = footer.getBoundingClientRect().top;
         var windowHeight = window.innerHeight;
 
-        // Khi gần tới footer, hiển thị chatbox icon
+        // Khi gần tới footer, ẩn chatbox icon
         if (footerOffset < windowHeight / 1.1) {
             chatboxIcon.style.display = "none";
         } else {
