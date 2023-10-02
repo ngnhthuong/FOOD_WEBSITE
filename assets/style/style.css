@@ -293,10 +293,12 @@ html {
     position: fixed;
     bottom: 0;
     right: 0;
+    transition: transform 0.3s ease-in-out; /* Hiệu ứng thay đổi kích thước */
 }
 
 .main-chatbox:hover{
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .main-chatbox__icon{
