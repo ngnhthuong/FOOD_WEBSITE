@@ -25,7 +25,7 @@ html {
     position: fixed;
     z-index: 1000; /* Đảm bảo hiển thị trên cùng của các phần tử khác */
     top: -50px; /* Điều này ẩn tiêu đề ban đầu khi không "sticky" */
-    transition: top 0.3s ease-in-out; /* Hiệu ứng chuyển đổi cho việc hiện/ẩn */
+    transition: top 0.2s ease-in-out; /* Hiệu ứng chuyển đổi cho việc hiện/ẩn */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng */
 }
 
@@ -184,18 +184,20 @@ html {
 }
 
 /* -------------------------------------------- */
-main {
-    width: 100%;
-    justify-content: center;    
+
+.main__section{
+    /* text-align: center; */
+    justify-content: center;
+    padding: 0px 100px 0px 100px;
+    position: relative;
 }
 
 
 .section__banner__search {
-    width: 75%;
-    height: 450px;
+    width: 100%;
+    height: 550px;
     position: relative;
     margin-top: 7%;
-    margin-left: 160px;
 }
 
 
@@ -206,7 +208,7 @@ main {
     position: absolute;
     left: 0;
     top: 0;
-
+    /* padding: 0px 40px 0px 40px; */
 }
 
 .main__search {
@@ -273,11 +275,20 @@ main {
 
 .main__banner {
     background-color: white;
-    width: 650px;
+    width: 850px;
     height: 500px;
     border-radius: 10px;
     display: inline-block;
     position: absolute;
     right: 0;
     top: 0;
+}
+
+/* main news */
+
+.main__news{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    border-radius: 7px;
 }
