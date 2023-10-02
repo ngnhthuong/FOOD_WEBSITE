@@ -188,7 +188,7 @@ html {
 .main__section{
     /* text-align: center; */
     justify-content: center;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 150px 0px 150px;
     position: relative;
 }
 
@@ -269,13 +269,16 @@ html {
     list-style: none;
 }
 
-.main__tag--items:hover {
-    border: 1px solid blue;
+.main__tag--items:hover, .main__tag--item:hover {
+    /* border: 1px solid blue; */
+    color: #EB6809;
+    /* font-weight: bold; */
+    cursor: pointer;
 }
 
 .main__banner {
     background-color: white;
-    width: 850px;
+    width: 750px;
     height: 500px;
     border-radius: 10px;
     display: inline-block;
@@ -291,4 +294,11 @@ html {
     width: 100%;
     height: 400px;
     border-radius: 7px;
+}
+
+.footer{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
 }
