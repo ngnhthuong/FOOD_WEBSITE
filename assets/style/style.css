@@ -12,7 +12,13 @@ html {
 }
 
 body::-webkit-scrollbar{
-    width: 0;
+    width: 3px;
+    background-color: white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color:#8080D7;
+    height: 20px;
 }
 
 .sticky{
