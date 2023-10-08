@@ -20,7 +20,7 @@ $(document).ready(function() {
 // croll hidden chatbox
 
 document.addEventListener("DOMContentLoaded", function() {
-    var chatboxIcon = document.querySelector(".hidden__chatbox   ");
+    var chatboxIcon = document.querySelector(".hidden__chatbox");
     var footer = document.querySelector("footer");
 
     window.addEventListener("scroll", function() {
