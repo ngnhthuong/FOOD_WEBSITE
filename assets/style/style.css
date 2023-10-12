@@ -2,26 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 html {
     background-color: #000235;
-    height: 1000px;
-    scroll-behavior: smooth;    
+    height: 100vh;
+    width: 100vw;
+    scroll-behavior: smooth;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     width: 3px;
     background-color: white;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color:#8080D7;
-    height: 20px;
+    background-color: #8080D7;
 }
 
-.sticky{
+.sticky {
     /* background-color: #AAD9D9;
     padding: 5px;
     width: 100%;
@@ -29,18 +29,24 @@ body::-webkit-scrollbar-thumb {
     transition: top 0.3s ease-in-out; 
     z-index: 999;
     top: 0; */
-    background-color: rgba(0, 0, 0, 0.9); /* Màu nền với độ trong suốt */
-    padding: 10px; /* Khoảng cách giữa nội dung và viền */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Màu nền với độ trong suốt */
+    padding: 10px;
+    /* Khoảng cách giữa nội dung và viền */
     width: 100%;
     position: fixed;
-    z-index: 1000; /* Đảm bảo hiển thị trên cùng của các phần tử khác */
-    top: -50px; /* Điều này ẩn tiêu đề ban đầu khi không "sticky" */
-    transition: top 0.2s ease-in-out; /* Hiệu ứng chuyển đổi cho việc hiện/ẩn */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng */
+    z-index: 1000;
+    /* Đảm bảo hiển thị trên cùng của các phần tử khác */
+    top: -50px;
+    /* Điều này ẩn tiêu đề ban đầu khi không "sticky" */
+    transition: top 0.2s ease-in-out;
+    /* Hiệu ứng chuyển đổi cho việc hiện/ẩn */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* Hiệu ứng bóng */
 }
 
 .header {
-    padding: 5px;
+    padding: 0.3rem;
     width: 100%;
     position: fixed;
     z-index: 1;
@@ -60,19 +66,19 @@ body::-webkit-scrollbar-thumb {
     padding: 0;
     margin: 0;
     vertical-align: middle;
-}   
+}
 
 /* logo */
 .header__logo {
     display: inline-block;
     vertical-align: middle;
-    padding: 0px 30px;
+    padding: 0 2rem;
 }
 
 /* Locations */
 
 .header__locations {
-    padding: 5px;
+    padding: 0.3rem;
     display: inline-block;
     vertical-align: middle;
     /* width: 400px; */
@@ -85,9 +91,9 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     background-color: #8080D7;
     /* height: 26px; */
-    padding: 5px;
-    width: 200px;
-    border-radius: 20px;
+    padding: 0.3rem;
+    width: 12rem;
+    border-radius: 1.1rem;
     vertical-align: middle;
 }
 
@@ -105,7 +111,7 @@ body::-webkit-scrollbar-thumb {
 
 /* Items */
 .header__categories {
-    width: 700px;
+    width: fit-content;
     display: inline-block;
     text-align: center;
 
@@ -120,7 +126,7 @@ body::-webkit-scrollbar-thumb {
 .header__item {
     list-style: none;
     display: inline-block;
-    padding: 0px 50px;
+    padding: 0 3rem;
 
 }
 
@@ -130,7 +136,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header__item--link {
-    padding-bottom: 2px;
+    padding-bottom: 0.1rem;
     display: inline-block;
 }
 
@@ -151,7 +157,7 @@ body::-webkit-scrollbar-thumb {
 .header__func {
     display: inline-block;
     list-style: none;
-    padding: 0px 15px;
+    padding: 0 1rem;
 }
 
 
@@ -170,16 +176,16 @@ body::-webkit-scrollbar-thumb {
 
 
 .header__language--flags {
-    width: 25px;
-    height: 25px;
+    width: 1.5rem;
+    height: 1.5rem;
     overflow: hidden;
     vertical-align: middle;
 }
 
 .header__language--flag {
-    border-radius: 150px;
-    width: 25px; 
-    height: 25px;
+    /* border-radius: 150px; */
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 
@@ -190,22 +196,22 @@ body::-webkit-scrollbar-thumb {
 .header__functions {
     display: inline-block;
     text-align: right;
-    width: 300px;
+    width: 19rem;
 }
 
 /* -------------------------------------------- */
 
-.main__section{
+.main__section {
     /* text-align: center; */
     justify-content: center;
-    padding: 0px 120px 0px 120px;
+    padding: 0 7rem 0 7rem;
     position: relative;
 }
 
-
+/* Banner */
 .section__banner__search {
     width: 100%;
-    height: 550px;
+    height: 34rem;
     position: relative;
     margin-top: 7%;
 }
@@ -223,11 +229,11 @@ body::-webkit-scrollbar-thumb {
 
 .main__search {
     background-color: rgb(255, 255, 255);
-    width: 426px;
-    height: 45px;
+    width: 26.5rem;
+    height: 3rem;
     overflow: hidden;
     position: relative;
-    border-radius: 7px;
+    border-radius: 0.4rem;
     text-align: center;
 
 }
@@ -237,18 +243,18 @@ body::-webkit-scrollbar-thumb {
     height: 100%;
     outline: none;
     border: none;
-    padding: 0px 50px 0px 10px;
+    padding: 0px 3rem 0px 0.6rem;
     /* background-color: #D9D9D9; */
 }
 
 
 .main__search--icon {
     position: absolute;
-    width: 40px;
-    height: 45px;
+    width: 2.5rem;
+    height: 3rem;
     right: 0;
     top: 0;
-    font-size: 15px;
+    font-size: 1rem;
     color: white;
     background-color: #8080D7;
     border: none;
@@ -257,8 +263,8 @@ body::-webkit-scrollbar-thumb {
 
 .main__tag {
     height: 100%;
-    width: 426px;
-    margin: 15px 0px;
+    width: 26.5rem;
+    margin: 1rem 0;
     overflow: hidden;
 }
 
@@ -272,52 +278,145 @@ body::-webkit-scrollbar-thumb {
     background-color: white;
     color: black;
     width: fit-content;
-    padding: 7px;
-    border-radius: 7px;
-    margin: 5px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 0.3rem;
     display: inline-block;
     list-style: none;
 }
 
-.main__tag--items:hover, .main__tag--item:hover {
+.main__tag--items:hover,
+.main__tag--item:hover {
     /* border: 1px solid blue; */
     color: #EB6809;
     /* font-weight: bold; */
     cursor: pointer;
 }
 
+.main__banner--img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
 .main__banner {
-    background-color: white;
-    width: 750px;
-    height: 500px;
+    background-color: rgb(197, 26, 26);
+    max-width: 37rem;
+    width: 46rem;
+    height: 31rem;
     border-radius: 10px;
     display: inline-block;
     position: absolute;
     right: 0;
     top: 0;
+    /* overflow: hidden; */
 }
+
+.image__banners{
+    display: block;
+    height: 31rem;
+}
+
+.image__banner {
+    display: none;
+    object-fit: cover;
+    width: 100%;
+}
+
+.image__banner--active {
+    display: block !important;
+}
+
+
+@media (min-width: 93rem) {
+    .main__banner {
+        background-color: white;
+        max-width: 750px;
+        height: 500px;
+        border-radius: 10px;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        /* overflow: hidden; */
+    }
+}
+
+.dots {
+    text-align: center;
+    margin: auto auto;
+    padding: 0.7rem;
+    /* position: absolute; */
+    bottom: 0;
+    /* right: 50%; */
+    /* transform: translateX(50%); */
+    z-index: 1;
+}
+
+.dot--active{
+    background-color: #848484 !important;
+}
+
+.dot {
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: #D9D9D9;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+
+.controls{
+    width: 100%;
+    top: 50%;
+    position: absolute;
+}
+
+.control{
+    transform: translateY(-50%);
+    position: absolute;
+    display: inline-block;
+}
+
+.next{
+    right: 1rem;
+}
+
+.pre{
+    left: 1rem;
+}
+
+.btn__banner{
+    z-index: 2;
+    stroke: white;
+    width: 3rem;
+    height: 3rem;
+    color: black;
+}
+
 
 /* main  chatbox*/
 
-.main-chatbox{
+.main-chatbox {
     position: fixed;
     bottom: 0;
     right: 0;
-    transition: transform 0.3s ease-in-out; /* Hiệu ứng thay đổi kích thước */
+    transition: transform 0.3s ease-in-out;
+    /* Hiệu ứng thay đổi kích thước */
 }
 
-.main-chatbox:hover{
+.main-chatbox:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
 
-.main-chatbox__icon{
+.main-chatbox__icon {
     margin: 20px;
     margin-bottom: 40px;
     /* display: none; */
 }
 
-.hidden__chatbox{
+.hidden__chatbox {
     display: block;
 }
 
@@ -325,7 +424,7 @@ body::-webkit-scrollbar-thumb {
 
 /* main news */
 
-.main__news{
+.main__news {
     background-color: white;
     width: 100%;
     height: 800px;
@@ -334,10 +433,11 @@ body::-webkit-scrollbar-thumb {
 
 /* Footer */
 
-.footer{
+.footer {
     background-color: white;
     width: 100%;
     height: 200px;
     margin-top: 50px;
 }
 
+/* responsive ipad */

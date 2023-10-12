@@ -13,7 +13,7 @@
 <body>
     <header class="header">
         <div class="header__logo">
-            <a href="#"><img width="100px" height="60px" src="./assets/images/logo.png" alt=""></a>
+            <a href="#"><img width="100px" height="60px" src="./assets/images/logo/logo.png" alt=""></a>
         </div>
         <div class="header__locations">
             <ul class="header__location">
@@ -91,22 +91,44 @@
             </div>
 
             <div class="main__banner">
-                <div class="main__banner--img"></div>
-                Banner
-                <!-- <ul class="main__banner--crolls">
-                        <li class="main__banner--croll"></li>
-                        <li class="main__banner--croll"></li>
-                        <li class="main__banner--croll"></li>
-                    </ul> -->
+                <div class="main__banner--img">
+                    <div class="image__banners">
+                        <img class="image__banner " src="./assets/images/slider/banner1.png" alt="">
+                        <img class="image__banner image__banner--active" src="./assets/images/slider/banner2.png"
+                        alt="">
+                        <img class="image__banner" src="./assets/images/slider/banner3.png" alt="">
+                        <img class="image__banner" src="./assets/images/slider/banner4.png" alt="">
+                    </div>
+                </div>
+                <div class="dots">
+                    <div class="dot--active dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                <div class="controls">
+                    <div class="control pre">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="btn__banner">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                        </svg>
+                    </div>
+                    <div class="control next">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="btn__banner">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </svg>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="main__news">
             news
         </section>
-        
+
         <section class="main-chatbox hidden__chatbox">
             <div class="main-chatbox__icon">
-                <img width = "70px" height="75px"src="./assets/icons/chatbox__food.png" alt="">
+                <img width="70px" height="75px" src="./assets/icons/chatbox__food.png" alt="">
             </div>
         </section>
     </main>
@@ -116,4 +138,5 @@
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="./javascript/script.js"></script>
+
 </html>
