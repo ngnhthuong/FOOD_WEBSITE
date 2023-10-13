@@ -8,6 +8,11 @@
     <link rel='shortcut icon' href='./assets/images/title-logo-demo.png' />
     <title>Panda Food</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -127,6 +132,9 @@
                 <div class="flashsale__titles">
                     <p class="flashsale--title">flash sale</p>
                 </div>
+                <div class="flashsale--head__icon">
+                    <img class="flashsale--head__img" src="./assets/images/flashsales/flashsale-head.png" alt="">
+                </div>
                 <span>
                     <div class="flit"></div>
                 </span>
@@ -150,7 +158,8 @@
                 <div class="flashsale__items">
                     <a href="">
                         <div class="flashsale__item--banner">
-
+                            <img class="flashsale__item--img" src="./assets/images/flashsales/flashsale-items1.png"
+                                alt="">
                         </div>
                     </a>
                     <div class="flashsale__item--title">
@@ -164,6 +173,8 @@
                 <div class="flashsale__items">
                     <a href="">
                         <div class="flashsale__item--banner">
+                            <img class="flashsale__item--img" src="./assets/images/flashsales/flashsale-items2.png"
+                                alt="">
 
                         </div>
                     </a>
@@ -179,6 +190,8 @@
                 <div class="flashsale__items">
                     <a href="">
                         <div class="flashsale__item--banner">
+                            <img class="flashsale__item--img" src="./assets/images/flashsales/flashsale-items3.png"
+                                alt="">
 
                         </div>
                     </a>
@@ -194,6 +207,8 @@
                 <div class="flashsale__items">
                     <a href="">
                         <div class="flashsale__item--banner">
+                            <img class="flashsale__item--img" src="./assets/images/flashsales/flashsale-items4.png"
+                                alt="">
 
                         </div>
                     </a>
@@ -224,178 +239,584 @@
             </ul>
             <div class="food-list__lists">
                 <div class="food-list__child">
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+                        <div class="food-list__sale">
+                            <img src="./assets/images/flashsales/sale-tag-background.png" alt=""
+                                class="food-list__sale--bg">
+                            <img src="./assets/images/flashsales/flashsale-head.png" alt=""
+                                class="food-list__sale--fire">
+                            <div class="food-list__percent">
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-list__title">
+                        <p class="food-list--title">Cháo ếch A5</p>
+                        <p class="food-list--address">Kí túc xá khu a tòa A5</p>
+                    </div>
+                    <div class="food-list__line"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--open food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--open">Mở cửa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-list__child">
                     <div class="food-list__sale"></div>
-                    <div class="food-list__image"></div>
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+                    </div>
                     <div class="food-list__title">
                         <p class="food-list--title">Cháo ếch A5</p>
                         <p class="food-list--address">Kí túc xá khu a tòa A5</p>
 
                     </div>
                     <div class="food-list__line"></div>
-                    <div class="food-list__status"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--close food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--close">Đóng cửa</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="food-list__child">
-                    <div class="food-list__sale"></div>
-                    <div class="food-list__image"></div>
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+
+                        <div class="food-list__sale">
+                            <img src="./assets/images/flashsales/sale-tag-background.png" alt=""
+                                class="food-list__sale--bg">
+                            <img src="./assets/images/flashsales/flashsale-head.png" alt=""
+                                class="food-list__sale--fire">
+                            <div class="food-list__percent">
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="food-list__title">
                         <p class="food-list--title">Cháo ếch A5</p>
                         <p class="food-list--address">Kí túc xá khu a tòa A5</p>
 
                     </div>
                     <div class="food-list__line"></div>
-                    <div class="food-list__status"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--open food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--open">Mở cửa</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="food-list__child">
-                    <div class="food-list__sale"></div>
-                    <div class="food-list__image"></div>
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+
+                        <div class="food-list__sale">
+                            <img src="./assets/images/flashsales/sale-tag-background.png" alt=""
+                                class="food-list__sale--bg">
+                            <img src="./assets/images/flashsales/flashsale-head.png" alt=""
+                                class="food-list__sale--fire">
+                            <div class="food-list__percent">
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="food-list__title">
                         <p class="food-list--title">Cháo ếch A5</p>
                         <p class="food-list--address">Kí túc xá khu a tòa A5</p>
 
                     </div>
                     <div class="food-list__line"></div>
-                    <div class="food-list__status"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--open food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--open">Mở cửa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-list__child">
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+
+                        <div class="food-list__sale">
+                            <img src="./assets/images/flashsales/sale-tag-background.png" alt=""
+                                class="food-list__sale--bg">
+                            <img src="./assets/images/flashsales/flashsale-head.png" alt=""
+                                class="food-list__sale--fire">
+                            <div class="food-list__percent">
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-list__title">
+                        <p class="food-list--title">Cháo ếch A5</p>
+                        <p class="food-list--address">Kí túc xá khu a tòa A5</p>
+                    </div>
+                    <div class="food-list__line"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--close food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--close">Đóng cửa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-list__child">
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+                        <div class="food-list__sale">
+                            <img src="./assets/images/flashsales/sale-tag-background.png" alt=""
+                                class="food-list__sale--bg">
+                            <img src="./assets/images/flashsales/flashsale-head.png" alt=""
+                                class="food-list__sale--fire">
+                            <div class="food-list__percent">
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-list__title">
+                        <p class="food-list--title">Cháo ếch A5</p>
+                        <p class="food-list--address">Kí túc xá khu a tòa A5</p>
+                    </div>
+                    <div class="food-list__line"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--open food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--open">Mở cửa</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="food-list__child">
                     <div class="food-list__sale"></div>
-                    <div class="food-list__image"></div>
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+                    </div>
                     <div class="food-list__title">
                         <p class="food-list--title">Cháo ếch A5</p>
                         <p class="food-list--address">Kí túc xá khu a tòa A5</p>
 
                     </div>
                     <div class="food-list__line"></div>
-                    <div class="food-list__status"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--close food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--close">Đóng cửa</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="food-list__child">
-                    <div class="food-list__sale"></div>
-                    <div class="food-list__image"></div>
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+
+                        <div class="food-list__sale">
+                            <img src="./assets/images/flashsales/sale-tag-background.png" alt=""
+                                class="food-list__sale--bg">
+                            <img src="./assets/images/flashsales/flashsale-head.png" alt=""
+                                class="food-list__sale--fire">
+                            <div class="food-list__percent">
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="food-list__title">
                         <p class="food-list--title">Cháo ếch A5</p>
                         <p class="food-list--address">Kí túc xá khu a tòa A5</p>
 
                     </div>
                     <div class="food-list__line"></div>
-                    <div class="food-list__status"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--open food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--open">Mở cửa</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="food-list__child">
-                    <div class="food-list__sale"></div>
-                    <div class="food-list__image"></div>
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+
+                        <div class="food-list__sale">
+                            <img src="./assets/images/flashsales/sale-tag-background.png" alt=""
+                                class="food-list__sale--bg">
+                            <img src="./assets/images/flashsales/flashsale-head.png" alt=""
+                                class="food-list__sale--fire">
+                            <div class="food-list__percent">
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="food-list__title">
                         <p class="food-list--title">Cháo ếch A5</p>
                         <p class="food-list--address">Kí túc xá khu a tòa A5</p>
 
                     </div>
                     <div class="food-list__line"></div>
-                    <div class="food-list__status"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--open food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--open">Mở cửa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-list__child">
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+
+                        <div class="food-list__sale">
+                            <img src="./assets/images/flashsales/sale-tag-background.png" alt=""
+                                class="food-list__sale--bg">
+                            <img src="./assets/images/flashsales/flashsale-head.png" alt=""
+                                class="food-list__sale--fire">
+                            <div class="food-list__percent">
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-list__title">
+                        <p class="food-list--title">Cháo ếch A5</p>
+                        <p class="food-list--address">Kí túc xá khu a tòa A5</p>
+                    </div>
+                    <div class="food-list__line"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--close food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--close">Đóng cửa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-list__child">
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+                        <div class="food-list__sale">
+                            <img src="./assets/images/flashsales/sale-tag-background.png" alt=""
+                                class="food-list__sale--bg">
+                            <img src="./assets/images/flashsales/flashsale-head.png" alt=""
+                                class="food-list__sale--fire">
+                            <div class="food-list__percent">
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-list__title">
+                        <p class="food-list--title">Cháo ếch A5</p>
+                        <p class="food-list--address">Kí túc xá khu a tòa A5</p>
+                    </div>
+                    <div class="food-list__line"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--open food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--open">Mở cửa</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="food-list__child">
                     <div class="food-list__sale"></div>
-                    <div class="food-list__image"></div>
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+                    </div>
                     <div class="food-list__title">
                         <p class="food-list--title">Cháo ếch A5</p>
                         <p class="food-list--address">Kí túc xá khu a tòa A5</p>
 
                     </div>
                     <div class="food-list__line"></div>
-                    <div class="food-list__status"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--close food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--close">Đóng cửa</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="food-list__child">
-                    <div class="food-list__sale"></div>
-                    <div class="food-list__image"></div>
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+
+                        <div class="food-list__sale">
+                            <img src="./assets/images/flashsales/sale-tag-background.png" alt=""
+                                class="food-list__sale--bg">
+                            <img src="./assets/images/flashsales/flashsale-head.png" alt=""
+                                class="food-list__sale--fire">
+                            <div class="food-list__percent">
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="food-list__title">
                         <p class="food-list--title">Cháo ếch A5</p>
                         <p class="food-list--address">Kí túc xá khu a tòa A5</p>
 
                     </div>
                     <div class="food-list__line"></div>
-                    <div class="food-list__status"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--open food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--open">Mở cửa</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="food-list__child">
-                    <div class="food-list__sale"></div>
-                    <div class="food-list__image"></div>
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+
+                        <div class="food-list__sale">
+                            <img src="./assets/images/flashsales/sale-tag-background.png" alt=""
+                                class="food-list__sale--bg">
+                            <img src="./assets/images/flashsales/flashsale-head.png" alt=""
+                                class="food-list__sale--fire">
+                            <div class="food-list__percent">
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="food-list__title">
                         <p class="food-list--title">Cháo ếch A5</p>
                         <p class="food-list--address">Kí túc xá khu a tòa A5</p>
 
                     </div>
                     <div class="food-list__line"></div>
-                    <div class="food-list__status"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--open food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--open">Mở cửa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-list__child">
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+
+                        <div class="food-list__sale">
+                            <img src="./assets/images/flashsales/sale-tag-background.png" alt=""
+                                class="food-list__sale--bg">
+                            <img src="./assets/images/flashsales/flashsale-head.png" alt=""
+                                class="food-list__sale--fire">
+                            <div class="food-list__percent">
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-list__title">
+                        <p class="food-list--title">Cháo ếch A5</p>
+                        <p class="food-list--address">Kí túc xá khu a tòa A5</p>
+                    </div>
+                    <div class="food-list__line"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--close food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--close">Đóng cửa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-list__child">
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+                        <div class="food-list__sale">
+                            <img src="./assets/images/flashsales/sale-tag-background.png" alt=""
+                                class="food-list__sale--bg">
+                            <img src="./assets/images/flashsales/flashsale-head.png" alt=""
+                                class="food-list__sale--fire">
+                            <div class="food-list__percent">
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-list__title">
+                        <p class="food-list--title">Cháo ếch A5</p>
+                        <p class="food-list--address">Kí túc xá khu a tòa A5</p>
+                    </div>
+                    <div class="food-list__line"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--open food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--open">Mở cửa</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="food-list__child">
                     <div class="food-list__sale"></div>
-                    <div class="food-list__image"></div>
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+                    </div>
                     <div class="food-list__title">
                         <p class="food-list--title">Cháo ếch A5</p>
                         <p class="food-list--address">Kí túc xá khu a tòa A5</p>
 
                     </div>
                     <div class="food-list__line"></div>
-                    <div class="food-list__status"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--close food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--close">Đóng cửa</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="food-list__child">
-                    <div class="food-list__sale"></div>
-                    <div class="food-list__image"></div>
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+
+                        <div class="food-list__sale">
+                            <img src="./assets/images/flashsales/sale-tag-background.png" alt=""
+                                class="food-list__sale--bg">
+                            <img src="./assets/images/flashsales/flashsale-head.png" alt=""
+                                class="food-list__sale--fire">
+                            <div class="food-list__percent">
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="food-list__title">
                         <p class="food-list--title">Cháo ếch A5</p>
                         <p class="food-list--address">Kí túc xá khu a tòa A5</p>
 
                     </div>
                     <div class="food-list__line"></div>
-                    <div class="food-list__status"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--open food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--open">Mở cửa</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="food-list__child">
-                    <div class="food-list__sale"></div>
-                    <div class="food-list__image"></div>
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
+
+                        <div class="food-list__sale">
+                            <img src="./assets/images/flashsales/sale-tag-background.png" alt=""
+                                class="food-list__sale--bg">
+                            <img src="./assets/images/flashsales/flashsale-head.png" alt=""
+                                class="food-list__sale--fire">
+                            <div class="food-list__percent">
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="food-list__title">
                         <p class="food-list--title">Cháo ếch A5</p>
                         <p class="food-list--address">Kí túc xá khu a tòa A5</p>
 
                     </div>
                     <div class="food-list__line"></div>
-                    <div class="food-list__status"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--open food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--open">Mở cửa</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="food-list__child">
-                    <div class="food-list__sale"></div>
-                    <div class="food-list__image"></div>
-                    <div class="food-list__title">
-                        <p class="food-list--title">Cháo ếch A5</p>
-                        <p class="food-list--address">Kí túc xá khu a tòa A5</p>
+                    <div class="food-list__image">
+                        <img src="./assets/images/items/food-items-img.png" alt="" class="food-list__image-img">
 
+                        <div class="food-list__sale">
+                            <img src="./assets/images/flashsales/sale-tag-background.png" alt=""
+                                class="food-list__sale--bg">
+                            <img src="./assets/images/flashsales/flashsale-head.png" alt=""
+                                class="food-list__sale--fire">
+                            <div class="food-list__percent">
+                                <p>10</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="food-list__line"></div>
-                    <div class="food-list__status"></div>
-                </div>
-                <div class="food-list__child">
-                    <div class="food-list__sale"></div>
-                    <div class="food-list__image"></div>
                     <div class="food-list__title">
                         <p class="food-list--title">Cháo ếch A5</p>
                         <p class="food-list--address">Kí túc xá khu a tòa A5</p>
+                    </div>
+                    <div class="food-list__line"></div>
+                    <div class="food-list__status">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="food-list__status--close food-list__status--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
 
+                        <div class="food-list__status--message">
+                            <p class="food-list__status--close">Đóng cửa</p>
+                        </div>
                     </div>
-                    <div class="food-list__line"></div>
-                    <div class="food-list__status"></div>
-                </div>
-                <div class="food-list__child">
-                    <div class="food-list__sale"></div>
-                    <div class="food-list__image"></div>
-                    <div class="food-list__title">
-                        <p class="food-list--title">Cháo ếch A5</p>
-                        <p class="food-list--address">Kí túc xá khu a tòa A5</p>
-                    </div>
-                    <div class="food-list__line"></div>
-                    <div class="food-list__status"></div>
-                </div>
-                <div class="food-list__child">
-                    <div class="food-list__sale"></div>
-                    <div class="food-list__image"></div>
-                    <div class="food-list__title">
-                        <p class="food-list--title">Cháo ếch A5</p>
-                        <p class="food-list--address">Kí túc xá khu a tòa A5</p>
-                    </div>
-                    <div class="food-list__line"></div>
-                    <div class="food-list__status"></div>
                 </div>
             </div>
         </section>
