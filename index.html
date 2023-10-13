@@ -96,13 +96,19 @@
             </div>
 
             <div class="main__banner">
-                <div class="main__banner--img">
-                    <div class="image__banners">
+                <div class="image__banners">
+                    <div class="image__banner--item  active">
                         <img class="image__banner " src="./assets/images/slider/banner1.png" alt="">
-                        <img class="image__banner image__banner--active" src="./assets/images/slider/banner2.png"
+                    </div>
+                    <div class="image__banner--item">
+                        <img class="image__banner" src="./assets/images/slider/banner2.png"
                             alt="">
-                        <img class="image__banner" src="./assets/images/slider/banner3.png" alt="">
-                        <img class="image__banner" src="./assets/images/slider/banner4.png" alt="">
+                    </div>
+                    <div class="image__banner--item"><img class="image__banner" src="./assets/images/slider/banner3.png"
+                            alt="">
+                    </div>
+                    <div class="image__banner--item"><img class="image__banner" src="./assets/images/slider/banner4.png"
+                            alt="">
                     </div>
                 </div>
                 <div class="dots">
@@ -112,18 +118,18 @@
                     <div class="dot"></div>
                 </div>
                 <div class="controls">
-                    <div class="control pre">
+                    <button class="control" id="pre">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="btn__banner">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
                         </svg>
-                    </div>
-                    <div class="control next">
+                    </button>
+                    <button class="control" id="next">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="btn__banner">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                         </svg>
-                    </div>
+                    </button>
                 </div>
             </div>
         </section>
@@ -693,5 +699,6 @@
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="./javascript/script.js"></script>
+<script src="./javascript/app.js"></script>
 
 </html>
