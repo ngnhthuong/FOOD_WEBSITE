@@ -607,8 +607,8 @@ body::-webkit-scrollbar-thumb {
 
 .food-header__link:active,
 .food-header__link:hover {
-    color: #EB6809;
-    border-bottom: 2px solid #EB6809;
+    color: #fefefe;
+    border-bottom: 2px solid #ffffff;
 }
 
 .food-header__link {
